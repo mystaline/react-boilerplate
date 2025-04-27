@@ -16,10 +16,8 @@
     "@mystaline/mysta-lib": "1.0.0-alpha.8",
     "@mystaline/mysta-presets": "1.0.0-alpha.7",
     "clsx": "^2.1.1",
-    "radix-ui": "^1.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^7.55.0",
     "react-router-dom": "^6.23.1"
   },
   "devDependencies": {

@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true,
+    "noEmit": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": true,
+    "declaration": true,
+    "composite": true,
+    "outDir": "dist",
+    "declarationDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "mysta-lib": ["node_modules/@mystaline/mysta-lib"],
+      "mysta-lib/*": ["node_modules/@mystaline/mysta-lib/*"],
+      "mysta-presets": ["node_modules/@mystaline/mysta-presets"],
+      "mysta-presets/*": ["node_modules/@mystaline/mysta-presets/*"]
+    },
+    "types": ["vite/client", "node"]
+  },
+  "include": ["**/*.d.ts", "**/*.ts", "**/*.js", "**/*.json", "**/*.tsx"],
+  "exclude": ["dist/*.js", "node_modules"]
+}

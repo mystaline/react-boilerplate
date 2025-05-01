@@ -12,11 +12,11 @@ importers:
   .:
     dependencies:
       '@mystaline/mysta-lib':
+        specifier: 1.0.0-alpha.9
+        version: 1.0.0-alpha.9
+      '@mystaline/mysta-presets':
         specifier: 1.0.0-alpha.8
         version: 1.0.0-alpha.8
-      '@mystaline/mysta-presets':
-        specifier: 1.0.0-alpha.7
-        version: 1.0.0-alpha.7
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -321,11 +321,11 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@mystaline/mysta-lib@1.0.0-alpha.8':
-    resolution: {integrity: sha512-ejCVfLr9l6EtNTKKjfsUTkR2cvgEpQSoCshp6t62pBrOJos+IGX7H3SEGa+St3pPdEHl4aiTyqU1pYEl0aG0Gw==}
+  '@mystaline/mysta-lib@1.0.0-alpha.9':
+    resolution: {integrity: sha512-PXsnya7VRcS7qhILCvDO/MfEcmMd1oGWPQQsSxKjKP0R5lfXBoLBk1XuodGxrOcwUpT4G8l3OCObjBxQEbq5cg==}
 
-  '@mystaline/mysta-presets@1.0.0-alpha.7':
-    resolution: {integrity: sha512-3b6GHJGaQDhMlh8DmllTKuIVq+6lLRK0T2CJpgqWKHdUnivYo3nrbYGnoK6Ag/bfDXf5PmlKB5k720rweCTdDg==}
+  '@mystaline/mysta-presets@1.0.0-alpha.8':
+    resolution: {integrity: sha512-LsBNneV9wYA+eV+GI/kcfvkFf6UG0jmD+OwhS8XuuyODxByeWWnEGz5W71T6/oN9BzgqA1tF/gVDWpyQJxOxUA==}
 
   '@napi-rs/wasm-runtime@0.2.9':
     resolution: {integrity: sha512-OKRBiajrrxB9ATokgEQoG87Z25c67pCpYcCwmXYX8PBftC9pBfN18gnm/fh1wurSLEKIAt+QRFLFCQISrb66Jg==}
@@ -2411,9 +2411,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@mystaline/mysta-lib@1.0.0-alpha.8': {}
+  '@mystaline/mysta-lib@1.0.0-alpha.9': {}
 
-  '@mystaline/mysta-presets@1.0.0-alpha.7': {}
+  '@mystaline/mysta-presets@1.0.0-alpha.8': {}
 
   '@napi-rs/wasm-runtime@0.2.9':
     dependencies:

@@ -13,8 +13,8 @@
     "up:mysta": "pnpm up @mystaline/mysta-lib@alpha @mystaline/mysta-presets@latest"
   },
   "dependencies": {
-    "@mystaline/mysta-lib": "1.0.0-alpha.8",
-    "@mystaline/mysta-presets": "1.0.0-alpha.7",
+    "@mystaline/mysta-lib": "1.0.0-alpha.9",
+    "@mystaline/mysta-presets": "1.0.0-alpha.8",
     "clsx": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

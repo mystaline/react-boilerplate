@@ -19,9 +19,9 @@ const App = () => {
     <Router basename="/">
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path="/" element={<Navigate to="/home" replace />} />
-          <Route path="/home" element={<HomePage />} />
-          <Route path="*" element={<div>404 - Page Not Found</div>} />
+          <Route element={<Navigate replace to="/home" />} path="/" />
+          <Route element={<HomePage />} path="/home" />
+          <Route element={<div>404 - Page Not Found</div>} path="*" />
           {/* Add more routes as needed */}
         </Routes>
       </Suspense>

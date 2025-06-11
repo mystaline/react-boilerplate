@@ -12,11 +12,11 @@ importers:
   .:
     dependencies:
       '@mystaline/mysta-lib':
-        specifier: 1.0.0-alpha.10
-        version: 1.0.0-alpha.10
+        specifier: 1.0.0-alpha.14
+        version: 1.0.0-alpha.14
       '@mystaline/mysta-presets':
-        specifier: 1.0.0-alpha.8
-        version: 1.0.0-alpha.8
+        specifier: 1.0.0-alpha.11
+        version: 1.0.0-alpha.11
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -383,11 +383,11 @@ packages:
     peerDependencies:
       eslint: ^8.0.0
 
-  '@mystaline/mysta-lib@1.0.0-alpha.10':
-    resolution: {integrity: sha512-fhjVcnIgEgjxpWVHSQDaugP/mIqtCRspZ+8nWSFbYGrd2kDZUPD50vZooRC558yhn4imZYHrJKLzQZGi7S38kA==}
+  '@mystaline/mysta-lib@1.0.0-alpha.14':
+    resolution: {integrity: sha512-zu5f6G1FCaDHyCktuUJ2LbgwCg+ZCntrbyHykVbdnFauTYiALjPMuEhlXfyT06MB6jwU3BKqdUdh/hqg/z35DQ==}
 
-  '@mystaline/mysta-presets@1.0.0-alpha.8':
-    resolution: {integrity: sha512-LsBNneV9wYA+eV+GI/kcfvkFf6UG0jmD+OwhS8XuuyODxByeWWnEGz5W71T6/oN9BzgqA1tF/gVDWpyQJxOxUA==}
+  '@mystaline/mysta-presets@1.0.0-alpha.11':
+    resolution: {integrity: sha512-J/suNlGjrhLa2ZN7dk24HkSyZ/RY7haODaYmBjaV3DXJ4rqSWh1b3csdtI8NpIXjdEf1IvCUQ7nf2BTAiVbt0A==}
 
   '@napi-rs/wasm-runtime@0.2.9':
     resolution: {integrity: sha512-OKRBiajrrxB9ATokgEQoG87Z25c67pCpYcCwmXYX8PBftC9pBfN18gnm/fh1wurSLEKIAt+QRFLFCQISrb66Jg==}
@@ -2618,9 +2618,9 @@ snapshots:
     dependencies:
       eslint: 9.25.1(jiti@1.21.7)
 
-  '@mystaline/mysta-lib@1.0.0-alpha.10': {}
+  '@mystaline/mysta-lib@1.0.0-alpha.14': {}
 
-  '@mystaline/mysta-presets@1.0.0-alpha.8': {}
+  '@mystaline/mysta-presets@1.0.0-alpha.11': {}
 
   '@napi-rs/wasm-runtime@0.2.9':
     dependencies:
